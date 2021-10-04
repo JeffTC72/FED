@@ -43,7 +43,7 @@ Home pagina
 <img src="images/homepage.png" width="375px" alt="Deze pagina is de home pagina en is de pagina die je krijgt zodra je Creative opzoekt in Google. Hier zie je een overzicht van nieuwe producten en kan je makkelijk doorstromen naar andere pagina's.">
 
 #### Screenshot(s) van de tweede pagina (small screen):
-hier de naam van de pagina  
+Product pagina 
 <img src="images/productpage.png" width="375px" alt="Dit is de pagina van een product, hier vind je alle informatie over het product dat je wil kopen.">
  
 </details>
@@ -58,13 +58,13 @@ hier de naam van de pagina
 <summary>uitwerken na afloop 2e werkgroep</summary>
 
 ### de hele pagina: 
-<img src="images/dummy-plaatje.jpg" width="375px" alt="breakdown van de hele pagina">
+<img src="images/helepagina1.png" width="375px" alt="breakdown van de hele pagina">
 
 ### dynamisch deel (bijv menu): 
-<img src="images/dummy-plaatje.jpg" width="375px" alt="breakdown van een dynamisch deel">
+<img src="images/dynamisch1.png" width="375px" alt="breakdown van een dynamisch deel">
 
 ### wellicht nog een dynamisch deel (bijv filter): 
-<img src="images/dummy-plaatje.jpg" width="375px" alt="breakdown van nog een dynamisch deel">
+<img src="images/ookdynamisch1" width="375px" alt="breakdown van nog een dynamisch deel">
 
 </details>
 
@@ -78,7 +78,7 @@ hier de naam van de pagina
 <summary>uitwerken voor 1e voortgang</summary>
 
 ### Stand van zaken
-hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+n/a
 
 
 ### Agenda voor meeting
@@ -94,10 +94,7 @@ samen met je groepje opstellen
 ### Verslag van meeting
 hier na afloop snel de uitkomsten van de meeting vastleggen
 
-- punt 1
-- punt 2
-- nog een punt
-- ...
+- n/a
 
 </details>
 
@@ -111,7 +108,7 @@ hier na afloop snel de uitkomsten van de meeting vastleggen
 <summary>uitwerken voor 2e voortgang</summary>
 
 ### Stand van zaken
-hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+n/a
 
 
 ### Agenda voor meeting
@@ -127,10 +124,7 @@ samen met je groepje opstellen
 ### Verslag van meeting
 hier na afloop snel de uitkomsten van de meeting vastleggen
 
-- punt 1
-- punt 2
-- nog een punt
-- ...
+- n/a
 
 </details>
 
