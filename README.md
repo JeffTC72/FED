@@ -44,7 +44,7 @@ Home pagina
 
 #### Screenshot(s) van de tweede pagina (small screen):
 Product pagina 
-<img src="images/productpage.png" width="375px" alt="Dit is de pagina van een product, hier vind je alle informatie over het product dat je wil kopen.">
+<img src="images/storepage.png" width="375px" alt="Dit is de pagina van een categorie, hier vind je alle producten in de categorie die je kan kopen.">
  
 </details>
 

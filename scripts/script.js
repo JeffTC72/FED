@@ -5,11 +5,13 @@
 *** HAMBURGER MENU ***
 *********************/
 
-var deButton = document.querySelector("nav button");
+var deButton = document.querySelector("nav img");
+var deNav = document.querySelector("nav")
 
-deButton.addEventListener("click",toggleMenu);
+
+deButton.addEventListener("click", toggleMenu);
 
 function toggleMenu(event) {
-    deNav = event.target.parentNode;
-    deNav.classList.toggle("showNav");
+  deNav.classList.toggle("showNav");
+  deButton.classList.toggle("showNav");
 }

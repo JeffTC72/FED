@@ -1,0 +1,242 @@
+/* CSS Document */
+*, *::after, *::before {
+    box-sizing:border-box;  
+  }
+  
+  /*********************
+  ** CUSTOM PROPETIES **
+  *********************/
+  
+  :root{
+    --background: #ffffff;
+    --alt-background: #21384d;
+  
+    --text: #333;
+    --alt-text: #ccc;
+    --lite-text: #999999;
+    --block: #f7f7f7;
+  
+    --link: #48c2d3;
+    --button: #c62828;
+  }
+  
+  @media (prefers-color-scheme:dark) {
+    :root:not(.lightMode) {
+      --background: #333;
+      --alt-background: #21384d;
+    
+      --text: #f7f7f7;
+      --block: #444;
+    
+      --link: #48c2d3;
+      --button: #c62828;
+    }
+  }
+  
+  @font-face{
+    font-family: 'AkrobatB';
+    src: url(../fonts/Akrobat-ExtraBold.otf);
+  }
+  
+  @font-face{
+    font-family: 'Akrobat';
+    src: url(../fonts/Akrobat-Regular.otf);
+  }
+  
+  @font-face{
+    font-family: 'proxima';
+    src: url(../fonts/ProximaNova-Regular.otf);
+  }
+  
+  /********************
+  ****** STYLING ******
+  ********************/
+  
+  body{
+    margin: 0;
+    background-color: var(--background);
+  }
+  
+  h2{
+    font-family: AkrobatB;
+    text-transform: uppercase;
+    font-size: 1.5em;
+    color: var(--text);
+  }
+  
+  h3{
+    font-family: Akrobat;
+    text-transform: uppercase;
+    color: var(--text);
+  }
+  a{
+    text-decoration: none;
+    color: var(--text);
+  }
+  p{
+    color: var(--text);
+    font-size: 1em;
+    font-family: 'proxima';
+  }
+  
+  header{
+    background-color: var(--background);
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 4em;
+    width: 100%;
+    position: sticky; top:0;
+    align-items: center;
+  }
+  
+  header img{
+    height: 1.5em;
+    margin-left: 1em;
+  }
+
+  #white{
+    display: none;
+  }
+  
+  @media (prefers-color-scheme:dark) {
+    #black{
+      display: none;
+    }
+  
+    #white{
+      display: block;
+    }
+  }
+  
+  nav{
+    position: absolute;
+    right: 0;
+  }
+  nav a{
+    font-family: 'proxima';
+    color: var(--lite-text);
+    font-size: 14px;
+  }
+  
+  nav img{
+    cursor: pointer;
+    height: 2em;
+  
+    right :1em;
+    z-index: 100;
+  
+  }
+  
+  nav section{
+    background-color: var(--alt-background);
+    list-style: none;
+    height: 100%;
+    width: 16em;
+    padding: 2em 1em 0 1em;
+  
+    position: fixed;
+    right:0; top:4em; bottom:0;
+    transform: translateX(100%);
+    transition: .5s;
+    z-index: 50;
+  }
+  
+  nav.showNav section{
+    transform: translateX(0%);
+  }
+  
+  nav section h2{
+    color: var(--block);
+  }
+  
+  nav section a, nav section p{
+    color: var(--alt-text);
+    text-decoration: none;
+  }
+  
+  ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  /*********************
+  ***  PRODUCTEN ***
+  *********************/
+  
+  section:not(.hamburger){
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 2em;
+  }
+  
+  section:not(.hamburger) ul{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 1em;
+    margin:auto;
+  }
+  section:not(.hamburger) ul img{
+    width: 7em;
+  }
+  
+  section:not(.hamburger) li:not(li:nth-of-type(1)){
+    background-color: var(--block);
+    padding: 1em;
+    text-align: center;
+  }
+  
+  section:not(.hamburger) ul li:nth-of-type(1){
+    grid-column-start: 1;
+    grid-column-end: 4;
+  }
+  
+  section:not(.hamburger) p{
+    color: var(--lite-text);
+  }
+  
+  
+  /*************
+  *** FOOTER ***
+  *************/
+  
+  footer{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2em;
+  
+    padding: 2em;
+  
+    background-color: var(--alt-background);
+  }
+  
+  footer h2{
+    color: var(--alt-text);
+  }
+  
+  footer a{
+    font-family: 'proxima';
+    color: var(--lite-text);
+    font-size: 14px;
+  }
+  
+  footer ul:nth-of-type(5){
+    grid-column-start: 1;
+    grid-column-end: 3;
+  
+    display: flex;
+    justify-content: center;
+  
+    gap: 1em;
+  }
+  footer ul img{
+    width: 2em;
+  }
+  
+  footer p{
+    grid-column-start: 1;
+    grid-column-end: 3;
+  
+    color: var(--lite-text);
+    text-align: center;
+  }
