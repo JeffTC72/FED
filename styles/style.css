@@ -100,13 +100,12 @@ header img{
 }
 
 @media (prefers-color-scheme:dark) {
-  #black{
-    display: none;
+  
+  header img,
+  section:nth-of-type(2) ul img{
+    filter: invert(1);
   }
-
-  #white{
-    display: block;
-  }
+  
 }
 
 
